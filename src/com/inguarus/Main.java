@@ -1,4 +1,5 @@
 package com.inguarus;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,10 +10,10 @@ public class Main {
 
     private static class Board {
 
-        private List<Ball> balls;
+        List<Ball> balls = new ArrayList<>();
 
         public Board() {
-            List<Ball> balls = new ArrayList<>();
+
             balls.add(new Ball());
             balls.add(new Ball());
             balls.add(new Ball());
